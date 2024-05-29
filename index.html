@@ -2,35 +2,48 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Copatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <!--/Part in CSS/-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <!--/Home page start/-->
     <div class="main-container">
-        <!--Table of contents start-->
         <div class="aside">
-            aside
+            <div class="logo">
+                <a href="#"><span>P</span>ortafolio</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i> Inicio</a></li>
+                <li><a href="#"><i class="fa fa-user"></i> Perfil</a></li>
+                <li><a href="#"><i class="fa fa-list"></i> Servicios</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i> Proyectos</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i> Contactos</a></li>
+            </ul>
         </div>
-        <!--End of table of contents-->
-        <!--The Main Content Start-->
         <div class="main-content">
-            <!--Home Selection Start-->
             <section class="home section">
-                Home
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hola">Hola, mi nombre es <span class="name">Santiago</span></h3>
+                            <h3 class="profession">Yo soy <span class="typing">"lo que se hacer"</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos assumenda mollitia blanditiis rerum voluptatum soluta perspiciatis eveniet tenetur molestias? Vel quasi veniam suscipit accusamus ratione culpa animi aut exercitationem eaque.</p>
+                            <a href="#contact" class="btn hire-me">Hire me</a>
+                        </div>
+                        <div class="home-img">
+                            <img src="images/hero.png" alt="Home Image">
+                        </div>
+                    </div>
+                </div>
             </section>
-            
-            <!--Home Selection End-->
         </div>
-        <!--The Main Content End-->
     </div>
-    <!--/End of page/-->
-    <!--Part in Js-->
     <script src="js/script.js"></script>
 </body>
 </html>
