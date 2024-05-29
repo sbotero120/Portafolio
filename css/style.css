@@ -58,7 +58,6 @@ ul
 {
     max-width: 1100px;
     width: 100%;
-    background: red;
     margin: auto;
 }
 .row
@@ -210,7 +209,38 @@ ul
 {
     margin-right: 15px; /* Corregido */
 }
+.home
+{
+    min-height: 100;
+    display: flex;
+    color: var(--text-black-900);
+}
+.home .home-info
+{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+h3.hello
+{
+    font-size: 28px;
+    margin: 15px 0;
+}
+h3.hello span
+{
+    font-family: 'Dancing script';
+    font-size: 150%;
+    font-weight: 700;
+    color: var(--skin-color);
 
+
+}
+.home .home-img
+{
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+}
 /* home */
 .home .home-img img
 {
